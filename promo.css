@@ -303,6 +303,72 @@ h1, h2, h3, h4 {
   font-size: 1rem !important;
 }
 
+/* SHOWCASE */
+.showcase {
+  background: var(--darker);
+  padding: 80px 0;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.showcase h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.showcase-desc {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.showcase-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.showcase-item {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  background: var(--dark);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.showcase-item video {
+  width: 100%;
+  border-radius: 6px;
+  height: 480px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.showcase-item h4 {
+  font-size: 1.2rem;
+  color: var(--yellow);
+}
+
+.showcase-masonry {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.showcase-masonry img {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.5rem; }
   .price-huge { font-size: 4rem; }
